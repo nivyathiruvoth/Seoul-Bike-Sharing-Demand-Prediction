@@ -80,6 +80,37 @@ Gradient Boosting Machine
 
 XGBoost
 
+## Best Hyper-parameters
+
+### Random Forest:
+
+max_depth : 8
+
+min_samples_leaf : 40
+
+min_samples_split : 50
+
+n_estimators : 100
+
+### GBM:
+
+max_depth : 8
+
+min_samples_leaf : 40
+
+min_samples_split : 50
+
+n_estimators : 80
+
+
+### XGBoost:
+
+eval_metric : rmse
+
+max_depth : 6
+
+n_estimators : 500
+
 ## Model Comparison
 
 All the models are evaluated on the basis of following evaluation metrics.
@@ -92,7 +123,7 @@ All the models are evaluated on the basis of following evaluation metrics.
 This project focus on predicting the bike-sharing demand using Seoul Dataset.
 
 * In contrast to Linear Regression, the results demonstrate that XGBoost, Random Forest, and GBM algorithms performed well on the dataset. 
-* Among these three models, XGBoost is found to have better performance. Therefore XGBoost algorithm can be used as an effective tool for Bike Sharing Demand Prediction.
+* Among these three models, XGBoost is found to have better performance with least test-MAE(139.62) and highest test - R2 Score(87%). Therefore XGBoost algorithm can be used as an effective tool for Bike Sharing Demand Prediction.
 * Analyzing feature importance showed that functioning day, temperature, and rainfall were the most influential variables in predicting the rental bike demand at each hour for all the models.
 * The intriguing relationship between the variables that can have an immediate impact on the dependent variable, "Rented Bike Count," is revealed by this project. 
 * As a result of this project, bike-sharing companies can better predict the hourly demand for bikes and enhance the customer experience.
