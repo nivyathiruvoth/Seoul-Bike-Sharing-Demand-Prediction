@@ -1,8 +1,7 @@
 # Seoul-Bike-Sharing-Demand-Prediction
 Predictive analysis on bike sharing demand based on regression models.
 
-![image](https://user-images.githubusercontent.com/92729412/193471330-87328629-6df1-4207-8822-5f46d40365cf.png)
-
+![image](https://user-images.githubusercontent.com/92729412/193472349-d513e48d-9370-4a01-a055-3e35fd3ce421.png)
 
 ## Introduction
 
