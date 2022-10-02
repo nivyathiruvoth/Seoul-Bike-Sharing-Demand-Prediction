@@ -1,6 +1,9 @@
 # Seoul-Bike-Sharing-Demand-Prediction
 Predictive analysis on bike sharing demand based on regression models.
 
+![image](https://user-images.githubusercontent.com/92729412/193471330-87328629-6df1-4207-8822-5f46d40365cf.png)
+
+
 ## Introduction
 
 A bicycle-sharing system, bike share program, public bicycle scheme, or public
@@ -69,6 +72,28 @@ Analysis, Encoding, Outlier detection etc.
 
 4. Creating models: Create different models and evaluate them using
 different metrics.
+
+## Pre-processing
+
+In this project, the dependent variable is ‘Rented bike count’, the prediction of which gives us the exact number of bikes required per hour in order to reduce the waiting time.
+
+![image](https://user-images.githubusercontent.com/92729412/193471573-583547dc-9916-4140-9b63-7c929c966cad.png)
+
+It can be observed that the distribution of the dependent variable is skewed. So we applied log1p transformation.
+
+![image](https://user-images.githubusercontent.com/92729412/193471667-2487f3bd-fea7-4e71-af4e-b37821d69a8b.png)
+
+We can observe that the features Temperature and Dew Point Temperature exhibit a high correlation. Therefore we will drop the column Dew Point temperature to prevent multicollinearity.
+
+![image](https://user-images.githubusercontent.com/92729412/193471682-b587d268-c3b6-4682-bab7-aa0b3736ad6f.png)
+
+VIF value is under 5. Therefore we assume that the multicollinearity between the independent variables is negligible.
+
+![image](https://user-images.githubusercontent.com/92729412/193471707-6c99513d-7093-4da0-98cb-49b6ea579cf2.png)
+
+We can observe from the above chart that due to high snowfall and less temperature, the number of rented bike count is deficient in the winters compared to summer and spring.
+People use rental bikes primarily for short-distance travel like traveling to school or work. That's why the percentage of rented bike count is lesser on a holy day.
+Since bikes are rented only on a functioning day, there is no doubt why the percentage of rented bike count is zero on a non-functioning day.
 
 ## Models used
 
