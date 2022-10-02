@@ -65,13 +65,12 @@ Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours)
 1. Exploring the data: Analyzing the features and target variable, checking
 for null values and duplicates, plotting the distribution of target variable etc.
 
-2. EDA: Treating numerical and categorical features separately, VIF
+2. Treating numerical and categorical features separately, VIF
 Analysis, Encoding, Outlier detection etc.
 
-3. Preprocessing of data: Train test split, Transformation, Scaling etc.
+3. Train test split, Transformation, Scaling etc.
 
-4. Creating models: Create different models and evaluate them using
-different metrics.
+4. Develop different models and evaluate them.
 
 ## Pre-processing
 
