@@ -24,9 +24,9 @@
   * [Introduction](#Introduction)
   * [Problem Statement](#Problem-Statement)
   * [Objectives](#Objectives)
-  * [Dataset Information](#dataset-information)
-  * [Tools and Technologies used](#tools-and-technologies-used)
-  * [Steps involved](#Steps-involved)
+  * [Data Summary](#Data-Summary)
+  * [Steps Involved](#Steps-Involved)
+  * [Pre-processing](#Pre-processing)
   * [Algorithms used](#Algorithms-used)
   * [Conclusion](#Conclusion)
 
