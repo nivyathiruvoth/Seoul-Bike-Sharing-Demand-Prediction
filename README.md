@@ -115,6 +115,10 @@ VIF value is under 5. Therefore we assume that the multicollinearity between the
 
 We can observe from the above chart that due to high snowfall and less temperature, the number of rented bike count is deficient in the winters compared to summer and spring. People use rental bikes primarily for short-distance travel like traveling to school or work. That's why the percentage of rented bike count is lesser on a holy day. Since bikes are rented only on a functioning day, there is no doubt why the percentage of rented bike count is zero on a non-functioning day.
 
+![image](https://user-images.githubusercontent.com/92729412/194884056-e4d85ab6-84d6-46fc-9aef-02a781c0e8fe.png)
+
+We might infer from the large rise in rental rates between 6:00 am to 8:00 am and 10:00 am to 6:00 pm that there is very high demand during the opening and closing hours of offices.  There is a consistent increase in demand for rental bikes from 10:00 AM to 6:00 PM. The least popular time to rent a bicycle is in the early morning hours (1:00 AM to 6:00 AM).  Regardless,of the seasons, this has been the general trend noticed.
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2>💻 Algorithms used</h2>
